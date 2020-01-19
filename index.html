@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +62,7 @@
 
             <img src="images/image_tango.PNG" alt="Image_Tango" width="500" height="400">
 
-        
+
             <br>
             <br>
             <br>
@@ -92,17 +92,47 @@
                 <div class="col-md-8">
                     <p>
                         I am a Computer Science enthusiast and a Member of Technical Staff at Adobe, working on Adobe's Chat Application and diving into Natural Language Processing for chat-bot automation.
-I am passionate about art and really thrilled about generating new art using deep learning.
-I have worked on various projects and internships which involved extracting meaning from text and images.
-My interests span a broad range of sub-fields in Computer Science, including Deep Learning, Machine Learning, Computer Vision and Natural Language Processing.
+                        I am passionate about art and really thrilled about generating new art using deep learning.
+                        I have worked on various projects and internships which involved extracting meaning from text and images.
+                        My interests span a broad range of sub-fields in Computer Science, including Deep Learning, Machine Learning, Computer Vision and Natural Language Processing.
 
-In my free time I like to participate in adventure sports and appreciate the unexplored beauty of nature through trekking. 
+                        In my free time I like to participate in adventure sports and appreciate the unexplored beauty of nature through trekking. 
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
+
+    <div id="publication" class="background-alt">
+        <h2 class="heading">Publications</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/paper.png" width="300" height="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>cFineGAN: Unsupervised multi-conditional fine-grained image generation</h3>
+                        <h4><a href="https://arxiv.org/abs/1912.05028" target="_blank">Paper link</a></h4>
+                        <p>
+                            <li>Developed a multi-conditional image generation pipeline in an unsupervised way using a hierarchial GAN framework</li>
+                            <li>Given a texture and a shape image, the pipeline generates an output that preserves the shape of first and texture of second input image</li> 
+                            <li>Used standard and shape biased ImageNet pre-trained Resnet50 models to identify the shape and texture characteristics of inputs, respectively</li>
+                            <!--                             <li>The proposed approach qualitatively outperformed the prior approaches over several benchmark datasets like CUB-200-2011, Stanford Dogs</li> -->
+                            <li>The paper was accepted as a workshop paper at NeurIPS 2019</li>
+                        </p>
+                        <!--a href="#">View Project</a-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
@@ -112,17 +142,17 @@ In my free time I like to participate in adventure sports and appreciate the une
                 <h4>Member of Technical Staff</h4>
                 <p>
                     <li>Implemented an NLU engine with multi-lingual capability for intent classication
-Trained XGBoost classifer over the embedding obtained from a multilingual universal sentence en-
-coder model
-</li>
-<li>
-The classifer obtained an accuracy of 74% and 61% over English and Japanese datasets respectively
-and is running live in production </li>
-<li>
-Deployed the model on Amazon SageMaker and integrated Redis cache and PostgreSQL database
-support into the back-end chat infrastructure </li>
-<li> Worked on an image generation framework which got selected amongst the top 11 ideas out of a few
-hundred Adobe wide submissions to be presented at Adobe Max conference </li>
+                        Trained XGBoost classifer over the embedding obtained from a multilingual universal sentence en-
+                        coder model
+                    </li>
+                    <li>
+                        The classifer obtained an accuracy of 74% and 61% over English and Japanese datasets respectively
+                    and is running live in production </li>
+                    <li>
+                        Deployed the model on Amazon SageMaker and integrated Redis cache and PostgreSQL database
+                    support into the back-end chat infrastructure </li>
+                    <li> Worked on an image generation framework which got selected amongst the top 11 ideas out of a few
+                    hundred Adobe wide submissions to be presented at Adobe Max conference </li>
                 </p>
             </div>
 
@@ -131,7 +161,7 @@ hundred Adobe wide submissions to be presented at Adobe Max conference </li>
                 <h4>R&D Intern</h4>
                 <p>
                     <li> Implemented the functionality to perform code coverage on the modied code, before it is committed
-to Perforce, inside vCHS platform </li>
+                    to Perforce, inside vCHS platform </li>
                 </p>
             </div>
 
@@ -140,10 +170,10 @@ to Perforce, inside vCHS platform </li>
                 <h4>Research Intern</h4>
                 <p>
                     <li>Improved the K-SVD algorithm used for compressing the raster images of PDF </li>
-<li>Implemented quantization of K-SVD algorithm as a learning process and incorporated patch based
-similarity matching to reduce the number of patches to be sparsely coded </li>
-<li>The changes achieved 21% better image compression ratio while having 0.088 lower RMSE than
-JPEG compression over the RAISE dataset </li>
+                    <li>Implemented quantization of K-SVD algorithm as a learning process and incorporated patch based
+                    similarity matching to reduce the number of patches to be sparsely coded </li>
+                    <li>The changes achieved 21% better image compression ratio while having 0.088 lower RMSE than
+                    JPEG compression over the RAISE dataset </li>
                 </p>
             </div>
 
@@ -152,9 +182,9 @@ JPEG compression over the RAISE dataset </li>
                 <h4>NLP Intern</h4>
                 <p>
                     <li> Worked on detection of quotes and speaker in an article by analyzing the position of quotation
-identifers, verb and name words </li>
-<li> Integration of the feature into production reduced the time for textual summarization of news articles
-by 30% </li>
+                    identifers, verb and name words </li>
+                    <li> Integration of the feature into production reduced the time for textual summarization of news articles
+                    by 30% </li>
                 </p>
             </div>
         </div>
@@ -167,7 +197,7 @@ by 30% </li>
             <h3>Birla Institute of Technology and Science Pilani, India</h3>
             <span class="education-date">August 2014 - July 2018</span>
             <h4>Bachelor of Engineering(Hons.), Computer Science | CGPA - 8.35/10.0</h4>
-           
+
         </div>
         <!-- End .education-block -->
 
@@ -192,174 +222,174 @@ by 30% </li>
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-		<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>cFineGAN: Unsupervised multi-conditional fine-grained image generation</h3>
-			    <h4><a href="https://arxiv.org/abs/1912.05028" target="_blank">Paper link</a></h4>
-                        <p>
-                            <li>Developed a multi-conditional image generation pipeline in an unsupervised way using a hierarchial GAN framework</li>
-                            <li>Given a texture and a shape image, the pipeline generates an output that preserves the shape of first and texture of second input image</li> 
-                            <li>Used standard and shape biased ImageNet pre-trained Resnet50 models to identify the shape and texture characteristics of inputs, respectively</li>
-<!--                             <li>The proposed approach qualitatively outperformed the prior approaches over several benchmark datasets like CUB-200-2011, Stanford Dogs</li> -->
-			    <li>The paper was accepted as a workshop paper at NeurIPS 2019</li>
-                        </p>
-                        <!--a href="#">View Project</a-->
-                    </div>
-                    <!-- End .project-info -->
+              <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
                 </div>
-		    
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Sentiment Analysis using Deep Learning</h3>
-                        <h4>Advisor: <a href="https://www.bits-pilani.ac.in/pilani/yash/profile" target="_blank">Prof. Yashvardhan Sharma</a> | Jan 2017 - May 2017</h4>
-                        <p>
-                            <li>Applied deep learning to perform sentiment analysis over different Indian languages</li>
-                            <li>Experimented  with  different  optimizers  such  as  Adam  and  Momentum  Optimizer,  and  also  withdifferent network architectures such as CNN and RNN</li> 
-                            <li>Achieved 85% and 83% mean validation accuracy with CNN and RNN respectively over differentlanguages</li>
-                            <li>Extended the project to contrast the impacts of product-centric and social cause marketing adver-tisements on users by analyzing their comments</li>
-                        </p>
-                        <!--a href="#">View Project</a-->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Textual Search Engine</h3>
-                        <h4>Course Project : Information Retrieval | Jan 2017 - Feb 2017</h4>
-                        <p>
-                            <li>Implemented sentence tokenization, normalization, building of inverted index and processing of wild-card queries for document retrieval on Reuters Corpus</li>
-                        </p>
-                        <!--a href="#">View Project</a-->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Machine Translation</h3>
-                        <h4>Course Project : Information Retrieval | March 2017 - April 2017</h4>
-                        <p>
-                            <li>Used IBM Models and Expectation Maximization Algorithm for the task of Statistical Machine Translation</li>
-                        </p>
-                        <!--a href="#">View Project</a-->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Object Recognition</h3>
-                        <h4>Aug 2016 - Nov 2016</h4>
-                        <p>
-                            <li>Used SIFT as feature descriptor and K-means clustering for codeword-generation to represent imagesusing Bag of Visual Words model</li> 
-                            <li>Trained multi-class SVM over the histogram of features to classify images</li> 
-                            <li>The method achieved an accuracy of 78% over a subset of 5 classes of Caltech-101 image dataset</li>
-                        </p>
-                        <!--a href="#">View Project</a-->
-                    </div>
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-
-                    <div class="project-info">
-                        <h3>Knowldge Extraction</h3>
-                        <h4>Course Project : Data Mining | Aug 2016 - Nov 2016</h4>
-                        <p>
-                            <li>Analyzed UCI’s Student Performance dataset and classified the student’s grades using several models such as KNN, Decision trees and SVM</li> 
-                            <li>Applied different pre-processing techniques over Census Income dataset, classified the income using Logistic Regression and computed the correlation between different features</li>
-                        </p>
-                        <!--a href="#">View Project</a-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C++</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>cFineGAN: Unsupervised multi-conditional fine-grained image generation</h3>
+                    <h4><a href="https://arxiv.org/abs/1912.05028" target="_blank">Paper link</a></h4>
                     <p>
-                        Copyright &copy; 2020 Gunjan Aggarwal
+                        <li>Developed a multi-conditional image generation pipeline in an unsupervised way using a hierarchial GAN framework</li>
+                        <li>Given a texture and a shape image, the pipeline generates an output that preserves the shape of first and texture of second input image</li> 
+                        <li>Used standard and shape biased ImageNet pre-trained Resnet50 models to identify the shape and texture characteristics of inputs, respectively</li>
+                        <!--                             <li>The proposed approach qualitatively outperformed the prior approaches over several benchmark datasets like CUB-200-2011, Stanford Dogs</li> -->
+                        <li>The paper was accepted as a workshop paper at NeurIPS 2019</li>
                     </p>
+                    <!--a href="#">View Project</a-->
                 </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">s
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/gunagg/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/gunjan-aggarwal-113571bb/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>  
-                        <li>
-                            <a href="https://twitter.com/gunjan050" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
+                <!-- End .project-info -->
+            </div>
 
-                    </ul>
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Sentiment Analysis using Deep Learning</h3>
+                    <h4>Advisor: <a href="https://www.bits-pilani.ac.in/pilani/yash/profile" target="_blank">Prof. Yashvardhan Sharma</a> | Jan 2017 - May 2017</h4>
+                    <p>
+                        <li>Applied deep learning to perform sentiment analysis over different Indian languages</li>
+                        <li>Experimented  with  different  optimizers  such  as  Adam  and  Momentum  Optimizer,  and  also  withdifferent network architectures such as CNN and RNN</li> 
+                        <li>Achieved 85% and 83% mean validation accuracy with CNN and RNN respectively over differentlanguages</li>
+                        <li>Extended the project to contrast the impacts of product-centric and social cause marketing adver-tisements on users by analyzing their comments</li>
+                    </p>
+                    <!--a href="#">View Project</a-->
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Textual Search Engine</h3>
+                    <h4>Course Project : Information Retrieval | Jan 2017 - Feb 2017</h4>
+                    <p>
+                        <li>Implemented sentence tokenization, normalization, building of inverted index and processing of wild-card queries for document retrieval on Reuters Corpus</li>
+                    </p>
+                    <!--a href="#">View Project</a-->
+                </div>
+                <!-- End .project-info -->
+            </div>
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Machine Translation</h3>
+                    <h4>Course Project : Information Retrieval | March 2017 - April 2017</h4>
+                    <p>
+                        <li>Used IBM Models and Expectation Maximization Algorithm for the task of Statistical Machine Translation</li>
+                    </p>
+                    <!--a href="#">View Project</a-->
+                </div>
+                <!-- End .project-info -->
+            </div>
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Object Recognition</h3>
+                    <h4>Aug 2016 - Nov 2016</h4>
+                    <p>
+                        <li>Used SIFT as feature descriptor and K-means clustering for codeword-generation to represent imagesusing Bag of Visual Words model</li> 
+                        <li>Trained multi-class SVM over the histogram of features to classify images</li> 
+                        <li>The method achieved an accuracy of 78% over a subset of 5 classes of Caltech-101 image dataset</li>
+                    </p>
+                    <!--a href="#">View Project</a-->
+                </div>
+            </div>
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+
+                <div class="project-info">
+                    <h3>Knowldge Extraction</h3>
+                    <h4>Course Project : Data Mining | Aug 2016 - Nov 2016</h4>
+                    <p>
+                        <li>Analyzed UCI’s Student Performance dataset and classified the student’s grades using several models such as KNN, Decision trees and SVM</li> 
+                        <li>Applied different pre-processing techniques over Census Income dataset, classified the income using Logistic Regression and computed the correlation between different features</li>
+                    </p>
+                    <!--a href="#">View Project</a-->
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- End footer -->
+    </div>
+</div>
+<!-- End #projects -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+<div id="skills">
+    <h2 class="heading">Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>C++</li>
+    </ul>
+</div>
+<!-- End #skills -->
+
+<div id="contact">
+    <h2>Get in Touch</h2>
+    <div id="contact-form">
+        <form method="POST" action="https://formspree.io/email@email.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+            <input type="email" name="_replyto" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- End #contact-form -->
+</div>
+<!-- End #contact -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; 2020 Gunjan Aggarwal
+                </p>
+            </div>
+            <div class="col-sm-2 top">
+                <span id="to-top">s
+                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/gunagg/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/gunjan-aggarwal-113571bb/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>  
+                    <li>
+                        <a href="https://twitter.com/gunjan050" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 
 </html>
